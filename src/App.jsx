@@ -8,6 +8,7 @@ import Plans from './pages/signup/SignUp'
 import Trainers from './pages/domain/Domain'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
+import Hosting from './pages/hosting/Hosting'
 
 const App = () => {
     return (
@@ -16,12 +17,9 @@ const App = () => {
             <Navbar />
             <Routes>
                 <Route index element={<Home/>} />
-                <Route path='about' element={<About />} />
-                <Route path='contact' element={<Contact />} />
-                <Route path='gallery' element={<Gallery />} />
-                <Route path='plans' element={<Plans />} />
-                <Route path='trainers' element={<Trainers />} />
-                <Route path='*' element={<NotFound />} />
+                <Route path='about' element={<Hosting />} />
+                <Route path='contact' element={<Domain />} />
+                <Route path='*' element={<Security />} />
             </Routes>
         </BrowserRouter>
     )

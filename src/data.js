@@ -7,11 +7,27 @@ export const links = [
     },
     {
         name:"Hosting",
-        path:'/hosting'
+        path:'/hosting',
+        submenu: [
+            {
+                name: "Shared Hosting",
+                path:"/sharedhosting"
+            }
+        ]
     },
     {
         name:"Domain",
-        path:'/domain'
+        path:'/domain',
+        submenu: [
+            {
+                name: "Registered Domain",
+                path:"/registered-domain"
+            },
+            {
+                name: "Transfered Domain",
+                path:"/transfered-domain"
+            },
+        ]
     },
     {
         name:"Security",
