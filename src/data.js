@@ -2,12 +2,8 @@ import {SiOpenaigym} from 'react-icons/si'
 
 export const links = [
     {
-        name:"Home",
+        name:"",
         path:'/'
-    },
-    {
-        name:"Security",
-        path:'/security'
     },
     {
         name:"Hosting",
@@ -18,12 +14,14 @@ export const links = [
         path:'/domain'
     },
     {
-        name:"Sign Up",
-        path:'/signup'
+        name:"Security",
+        path:'/security'
     },
+
+ 
     {
-        name: "Sign In",
-        path: '/signin'
+        name:"Account",
+        path:'/account'
     }
 ]
 

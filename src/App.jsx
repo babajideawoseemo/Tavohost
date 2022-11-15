@@ -5,7 +5,7 @@ import About from './pages/about/About'
 import Contact from './pages/hosting/Hosting'
 import Gallery from './pages/security/Security'
 import Plans from './pages/signup/SignUp'
-import Trainers from './pages/solutions/Solutions'
+import Trainers from './pages/domain/Domain'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
 
