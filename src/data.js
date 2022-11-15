@@ -6,25 +6,25 @@ export const links = [
         path:'/'
     },
     {
-        name:"About",
-        path:'/about'
+        name:"Security",
+        path:'/security'
     },
     {
-        name:"Gallery",
-        path:'/gallery'
+        name:"Hosting",
+        path:'/hosting'
     },
     {
-        name:"Plans",
-        path:'/plans'
+        name:"Domain",
+        path:'/domain'
     },
     {
-        name:"Solutions",
-        path:'/solutions'
+        name:"Sign Up",
+        path:'/signup'
     },
     {
-        name:"Contact",
-        path:'/contact'
-    },
+        name: "Sign In",
+        path: '/signin'
+    }
 ]
 
 export const programs = [

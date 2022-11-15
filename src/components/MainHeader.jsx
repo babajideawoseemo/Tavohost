@@ -11,7 +11,7 @@ const MainHeader = () => {
         <h2>Web hosting that scales from easy to expert.</h2>
         <p>A ton of website hosting options, 99.9% uptime guarantee, free SSL certificate, easy WordPress installs, and a free domain for a year.
         </p>
-        <Link to="/plans" className='btn lg'>Get Started</Link>
+        <Link to="/hosting" className='btn lg'>Get Started</Link>
       </div>
       <div className="main__header-right">
         <div className="main__header-circle"></div>
